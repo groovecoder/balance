@@ -43,7 +43,7 @@ describe StateHandler::AK do
       context 'with transcription containing balance' do
         it 'sends response with balance amounts' do
           reply_for_user = subject.transcribe_balance_response(successful_transcription_1)
-          expect(reply_for_user).to eq("Hi! Your food stamp balance is $123.45.")
+          expect(reply_for_user).to eq("Hi! Your food stamp balance is $124.45.")
         end
       end
 
